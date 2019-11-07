@@ -1,0 +1,19 @@
+{
+  "name": "micro-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:api": "node api/app.js",
+    "dev:service": "node service/app.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "express": "^4.17.1",
+    "sequelize": "^5.21.2",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
