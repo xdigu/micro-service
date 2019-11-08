@@ -11,7 +11,7 @@ To access RabbitMQ admin page: [http://localhost:8080/](http://localhost:8080/).
 
 ```
 user:  guest
-senha: guest
+pass: guest
 ```
 
 Now we are able to run ower api and microservice.
