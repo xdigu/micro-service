@@ -4,7 +4,7 @@ A simple example to learn microservice using express, RabbitMQ and Nodejs.
 To use RabbitMQ with docker, just run the following command:
 
 ``` sh
-$ docker run -d --hostname micro-service --name rabbit13 -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
+$ docker run -d --hostname my-rabbit --name rabbit-micro-service -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
 ```
 
 To access RabbitMQ admin page: [http://localhost:8080/](http://localhost:8080/).
