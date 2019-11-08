@@ -1,6 +1,6 @@
 const amqp = require('amqplib');
 const producer = amqp.connect('amqp://localhost:5672');
-const queue = 'hello';
+const queue = 'user';
 const { User } = require('../../../models');
 
 class UserController {

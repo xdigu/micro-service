@@ -3,7 +3,7 @@ const { User } = require('../models');
 
 amqp.connect('amqp://localhost:5672', function (err, conn) {
     conn.createChannel(function (err, ch) {
-        var queue = 'hello';
+        var queue = 'user';
 
         ch.assertQueue(queue, { durable: false });
         ch.prefetch(1);
