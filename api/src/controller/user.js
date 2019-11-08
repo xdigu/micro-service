@@ -4,7 +4,7 @@ const queue = 'hello';
 const { User } = require('../../../models');
 
 class UserController {
-    create(req, res) {
+    storage(req, res) {
         const { user } = req.body;
 
         if (!user.name || !user.email) {
@@ -44,7 +44,7 @@ class UserController {
             });
     }
 
-    read(req, res) {
+    show(req, res) {
         const { user_id } = req.params;
 
         if (!user_id || isNaN(user_id)) {
