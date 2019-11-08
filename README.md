@@ -10,7 +10,7 @@ $ docker run -d --hostname my-rabbit --name rabbit-micro-service -p 8080:15672 -
 To access RabbitMQ admin page: [http://localhost:8080/](http://localhost:8080/).
 
 ```
-user:  guest
+user: guest
 pass: guest
 ```
 
